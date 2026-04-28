@@ -1,12 +1,9 @@
 """
 Drunk Drivers Classification - Kaggle Competition 2025-2026
 ============================================================
-Enfoque ORDINAL: modelos binarios acumulativos.
-  Model 1: P(DRUNK_DR >= 1) - fuerte, 18496 vs 6540
-  Model 2: P(DRUNK_DR >= 2) - moderado, 24834 vs 202
-  Model 3: P(DRUNK_DR >= 3) - heuristico (solo 5 muestras)
+Created By: Diego Martinez Silva & Carlos García-Mauriño García-Mauriño
+As:"ExtremoDuro"
 
-Constraint fisico: clase 2+ solo posible si VE_TOTAL >= 2.
 """
 
 import pandas as pd
